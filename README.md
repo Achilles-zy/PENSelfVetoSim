@@ -1,4 +1,4 @@
-# PENVetoSim
+# PENSelfVetoSim
 
 Veto simulation of nucleus inside PEN material
 
