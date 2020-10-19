@@ -1,0 +1,48 @@
+#Radioactive decay simulation
+/control/verbose 0
+/control/saveHistory
+/run/verbose 0
+#
+# Change the default number of threads (in multi-threaded mode)
+/run/numberOfThreads 16
+#
+# Initialize kernel
+/run/initialize
+/gps/energy 0. MeV
+/gps/pos/confine PENShell
+
+
+#run 6
+/gps/particle ion
+/gps/ion 84 216 0 0
+/run/beamOn 1000000
+
+#run 7
+/gps/particle ion
+/gps/ion 84 216 0 0
+/run/beamOn 1000000
+
+#run 8
+/gps/particle ion
+/gps/ion 82 212 0 0
+/run/beamOn 1000000
+
+#run 9
+/gps/particle ion
+/gps/ion 83 212 0 0
+/run/beamOn 1000000
+
+#run 10
+/gps/particle ion
+/gps/ion 84 212 0 0
+/run/beamOn 1000000
+
+#run 11
+/gps/particle ion
+/gps/ion 81 208 0 0
+/run/beamOn 1000000
+
+#run 12
+/gps/particle ion
+/gps/ion 19 40 0 0
+/run/beamOn 1000000
